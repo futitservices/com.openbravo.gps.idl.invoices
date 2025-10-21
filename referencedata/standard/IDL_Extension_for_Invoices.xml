@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ob:Openbravo xmlns:ob="http://www.openbravo.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <IDL_Entities id="014408B7BB2F4420B7AC99F1683549B1" identifier="Invoices">
+    <id>014408B7BB2F4420B7AC99F1683549B1</id>
+    <active>true</active>
+    <creationDate transient="true">2011-02-16T18:43:13.359Z</creationDate>
+    <createdBy transient="true" id="100" entity-name="ADUser" identifier="Openbravo"/>
+    <updated transient="true">2011-02-17T17:17:27.328Z</updated>
+    <updatedBy transient="true" id="100" entity-name="ADUser" identifier="Openbravo"/>
+    <name>Invoices</name>
+    <description>Load Sales and Purchase Invoices</description>
+    <javaClassName>com.openbravo.gps.idl.invoices.IdlInvoices</javaClassName>
+    <iDLFieldsList>
+      <IDL_Fields id="274143B57FC3415199D8CD125A6EC09C" identifier="DescriptionLine">
+        <id>274143B57FC3415199D8CD125A6EC09C</id>
+        <active>true</active>
+        <creationDate transient="true">2011-02-16T19:01:39.938Z</creationDate>
+        <createdBy transient="true" id="100" entity-name="ADUser" identifier="Openbravo"/>
+        <updated transient="true">2011-02-25T17:49:22.213Z</updated>
+        <updatedBy transient="true" id="100" entity-name="ADUser" identifier="Openbravo"/>
+        <name>DescriptionLine</name>
+        <description xsi:nil="true"/>
+        <entityRef id="014408B7BB2F4420B7AC99F1683549B1" entity-name="IDL_Entities" identifier="Invoices"/>
+        <defaultValue xsi:nil="true"/>
+        <dataType>string</dataType>
+      </IDL_Fields>
+      <IDL_Fields id="2543E40044DA43709ED54C5F513B2FB7" identifier="InvoicedQuantity">
+        <id>2543E40044DA43709ED54C5F513B2FB7</id>
+        <active>true</active>
+        <creationDate transient="true">2011-02-16T18:58:10.181Z</creationDate>
+        <createdBy transient="true" id="100" entity-name="ADUser" identifier="Openbravo"/>
+        <updated transient="true">2011-02-25T17:49:06.408Z</updated>
+        <updatedBy transient="true" id="100" entity-name="ADUser" identifier="Openbravo"/>
+        <name>InvoicedQuantity</name>
+        <description xsi:nil="true"/>
+        <entityRef id="014408B7BB2F4420B7AC99F1683549B1" entity-name="IDL_Entities" identifier="Invoices"/>
+        <defaultValue xsi:nil="true"/>
+        <dataType>numeric</dataType>
+      </IDL_Fields>
+      <IDL_Fields id="5E6F78114FA940EDAABDCD471E4E59F5" identifier="ExcludeForWithholding">
+        <id>5E6F78114FA940EDAABDCD471E4E59F5</id>
+        <active>true</active>
+        <creationDate transient="true">2011-02-16T19:03:06.360Z</creationDate>
+        <createdBy transient="true" id="100" entity-name="ADUser" identifier="Openbravo"/>
+        <updated transient="true">2011-02-28T17:37:37.600Z</updated>
+        <updatedBy transient="true" id="100" entity-name="ADUser" identifier="Openbravo"/>
+        <name>ExcludeForWithholding</name>
+        <description xsi:nil="true"/>
+        <entityRef id="014408B7BB2F4420B7AC99F1683549B1" entity-name="IDL_Entities" identifier="Invoices"/>
+        <defaultValue xsi:nil="true"/>
+        <dataType>boolean</dataType>
+      </IDL_Fields>
+      <IDL_Fields id="E13FE83C907146B49A7A3099A07AB034" identifier="Withholding">
+        <id>E13FE83C907146B49A7A3099A07AB034</id>
+        <active>true</active>
+        <creationDate transient="true">2011-02-16T19:02:45.573Z</creationDate>
+        <createdBy transient="true" id="100" entity-name="ADUser" identifier="Openbravo"/>
+        <updated transient="true">2011-02-28T17:37:46.433Z</updated>
+        <updatedBy transient="true" id="100" entity-name="ADUser" identifier="Openbravo"/>
+        <name>Withholding</name>
+        <description xsi:nil="true"/>
+        <entityRef id="014408B7BB2F4420B7AC99F1683549B1" entity-name="IDL_Entities" identifier="Invoices"/>
+        <defaultValue xsi:nil="true"/>
+        <dataType>string</dataType>
+      </IDL_Fields>
+      <IDL_Fields id="ECC4AA5CBE2A462982F0E3AA7949F196" identifier="DocumentNo">
+        <id>ECC4AA5CBE2A462982F0E3AA7949F196</id>
+        <active>true</active>
+        <creationDate transient="true">2011-02-16T18:49:32.288Z</creationDate>
+        <createdBy transient="true" id="100" entity-name="ADUser" identifier="Openbravo"/>
+        <updated transient="true">2011-02-16T18:49:32.288Z</updated>
+        <updatedBy transient="true" id="100" entity-name="ADUser" identifier="Openbravo"/>
+        <name>DocumentNo</name>
+        <description xsi:nil="true"/>
+        <entityRef id="014408B7BB2F4420B7AC99F1683549B1" entity-name="IDL_Entities" identifier="Invoices"/>
+        <defaultValue xsi:nil="true"/>
+        <dataType>string</dataType>
+      </IDL_Fields>
+      <IDL_Fields id="972211690A9043DCACDD25EA40D14899" identifier="Account">
+        <id>972211690A9043DCACDD25EA40D14899</id>
+        <active>true</active>
+        <creationDate transient="true">2011-02-16T18:56:59.210Z</creationDate>
+        <createdBy transient="true" id="100" entity-name="ADUser" identifier="Openbravo"/>
+        <updated transient="true">2011-02-16T18:56:59.210Z</updated>
+        <updatedBy transient="true" id="100" entity-name="ADUser" identifier="Openbravo"/>
+        <name>Account</name>
+        <description xsi:nil="true"/>
+        <entityRef id="014408B7BB2F4420B7AC99F1683549B1" entity-name="IDL_Entities" identifier="Invoices"/>
+        <defaultValue xsi:nil="true"/>
+        <dataType>string</dataType>
+      </IDL_Fields>
+      <IDL_Fields id="92A614C3FD094FA98C6DA50E70086E52" identifier="BusinessPartner">
+        <id>92A614C3FD094FA98C6DA50E70086E52</id>
+        <active>true</active>
+        <creationDate transient="true">2011-02-16T18:51:39.154Z</creationDate>
+        <createdBy transient="true" id="100" entity-name="ADUser" identifier="Openbravo"/>
+        <updated transient="true">2011-02-25T17:50:25.472Z</updated>
+        <updatedBy transient="true" id="100" entity-name="ADUser" identifier="Openbravo"/>
+        <name>BusinessPartner</name>
+        <description xsi:nil="true"/>
+        <entityRef id="014408B7BB2F4420B7AC99F1683549B1" entity-name="IDL_Entities" identifier="Invoices"/>
+        <defaultValue xsi:nil="true"/>
+        <dataType>string</dataType>
+      </IDL_Fields>
+      <IDL_Fields id="015DF449C4384A7FA5A187AE7CC54DFC" identifier="PriceListVersion">
+        <id>015DF449C4384A7FA5A187AE7CC54DFC</id>
+        <active>true</active>
+        <creationDate transient="true">2011-02-21T11:09:55.966Z</creationDate>
+        <createdBy transient="true" id="100" entity-name="ADUser" identifier="Openbravo"/>
+        <updated transient="true">2011-02-21T11:09:55.966Z</updated>
+        <updatedBy transient="true" id="100" entity-name="ADUser" identifier="Openbravo"/>
+        <name>PriceListVersion</name>
+        <description xsi:nil="true"/>
+        <entityRef id="014408B7BB2F4420B7AC99F1683549B1" entity-name="IDL_Entities" identifier="Invoices"/>
+        <defaultValue xsi:nil="true"/>
+        <dataType>string</dataType>
+      </IDL_Fields>
+      <IDL_Fields id="21FF4EC3A85E4E9D9236C0C2E604401A" identifier="Organization">
+        <id>21FF4EC3A85E4E9D9236C0C2E604401A</id>
+        <active>true</active>
+        <creationDate transient="true">2011-02-16T18:49:14.817Z</creationDate>
+        <createdBy transient="true" id="100" entity-name="ADUser" identifier="Openbravo"/>
+        <updated transient="true">2011-02-25T17:48:46.859Z</updated>
+        <updatedBy transient="true" id="100" entity-name="ADUser" identifier="Openbravo"/>
+        <name>Organization</name>
+        <description xsi:nil="true"/>
+        <entityRef id="014408B7BB2F4420B7AC99F1683549B1" entity-name="IDL_Entities" identifier="Invoices"/>
+        <defaultValue xsi:nil="true"/>
+        <dataType>string</dataType>
+      </IDL_Fields>
+      <IDL_Fields id="2996C167FAA04F669897A16BFED3E0A5" identifier="SalesRepresentativeCompanyAgent">
+        <id>2996C167FAA04F669897A16BFED3E0A5</id>
+        <active>true</active>
+        <creationDate transient="true">2011-02-16T18:52:36.479Z</creationDate>
+        <createdBy transient="true" id="100" entity-name="ADUser" identifier="Openbravo"/>
+        <updated transient="true">2011-02-25T17:49:41.142Z</updated>
+        <updatedBy transient="true" id="100" entity-name="ADUser" identifier="Openbravo"/>
+        <name>SalesRepresentativeCompanyAgent</name>
+        <description xsi:nil="true"/>
+        <entityRef id="014408B7BB2F4420B7AC99F1683549B1" entity-name="IDL_Entities" identifier="Invoices"/>
+        <defaultValue xsi:nil="true"/>
+        <dataType>string</dataType>
+      </IDL_Fields>
+      <IDL_Fields id="5523E8EB85D3437AB3ABE0CE5AD0163F" identifier="AccountingDate">
+        <id>5523E8EB85D3437AB3ABE0CE5AD0163F</id>
+        <active>true</active>
+        <creationDate transient="true">2011-02-16T18:51:08.896Z</creationDate>
+        <createdBy transient="true" id="100" entity-name="ADUser" identifier="Openbravo"/>
+        <updated transient="true">2011-02-25T17:50:15.444Z</updated>
+        <updatedBy transient="true" id="100" entity-name="ADUser" identifier="Openbravo"/>
+        <name>AccountingDate</name>
+        <description xsi:nil="true"/>
+        <entityRef id="014408B7BB2F4420B7AC99F1683549B1" entity-name="IDL_Entities" identifier="Invoices"/>
+        <defaultValue xsi:nil="true"/>
+        <dataType>date</dataType>
+      </IDL_Fields>
+      <IDL_Fields id="C796D8041C74417EA605F54CFCB20E32" identifier="DescriptionHeader">
+        <id>C796D8041C74417EA605F54CFCB20E32</id>
+        <active>true</active>
+        <creationDate transient="true">2011-02-16T18:50:02.208Z</creationDate>
+        <createdBy transient="true" id="100" entity-name="ADUser" identifier="Openbravo"/>
+        <updated transient="true">2011-02-25T17:50:34.45Z</updated>
+        <updatedBy transient="true" id="100" entity-name="ADUser" identifier="Openbravo"/>
+        <name>DescriptionHeader</name>
+        <description xsi:nil="true"/>
+        <entityRef id="014408B7BB2F4420B7AC99F1683549B1" entity-name="IDL_Entities" identifier="Invoices"/>
+        <defaultValue xsi:nil="true"/>
+        <dataType>string</dataType>
+      </IDL_Fields>
+      <IDL_Fields id="2CAE6B077FC74B1FAD9016BEB7318C96" identifier="FinancialInvoiceLine">
+        <id>2CAE6B077FC74B1FAD9016BEB7318C96</id>
+        <active>true</active>
+        <creationDate transient="true">2011-02-16T18:56:45.311Z</creationDate>
+        <createdBy transient="true" id="100" entity-name="ADUser" identifier="Openbravo"/>
+        <updated transient="true">2011-02-25T17:51:25.23Z</updated>
+        <updatedBy transient="true" id="100" entity-name="ADUser" identifier="Openbravo"/>
+        <name>FinancialInvoiceLine</name>
+        <description xsi:nil="true"/>
+        <entityRef id="014408B7BB2F4420B7AC99F1683549B1" entity-name="IDL_Entities" identifier="Invoices"/>
+        <defaultValue xsi:nil="true"/>
+        <dataType>boolean</dataType>
+      </IDL_Fields>
+      <IDL_Fields id="7585D7760AED45A7AD7109C76317374D" identifier="FormOfPayment">
+        <id>7585D7760AED45A7AD7109C76317374D</id>
+        <active>true</active>
+        <creationDate transient="true">2011-02-16T18:55:12.504Z</creationDate>
+        <createdBy transient="true" id="100" entity-name="ADUser" identifier="Openbravo"/>
+        <updated transient="true">2011-02-25T17:51:40.117Z</updated>
+        <updatedBy transient="true" id="100" entity-name="ADUser" identifier="Openbravo"/>
+        <name>FormOfPayment</name>
+        <description xsi:nil="true"/>
+        <entityRef id="014408B7BB2F4420B7AC99F1683549B1" entity-name="IDL_Entities" identifier="Invoices"/>
+        <defaultValue xsi:nil="true"/>
+        <dataType>string</dataType>
+      </IDL_Fields>
+      <IDL_Fields id="3E7DB2A5ED2144D8BFD3A20944DA746D" identifier="InvoiceDate">
+        <id>3E7DB2A5ED2144D8BFD3A20944DA746D</id>
+        <active>true</active>
+        <creationDate transient="true">2011-02-16T18:50:55.997Z</creationDate>
+        <createdBy transient="true" id="100" entity-name="ADUser" identifier="Openbravo"/>
+        <updated transient="true">2011-02-25T17:51:56.18Z</updated>
+        <updatedBy transient="true" id="100" entity-name="ADUser" identifier="Openbravo"/>
+        <name>InvoiceDate</name>
+        <description xsi:nil="true"/>
+        <entityRef id="014408B7BB2F4420B7AC99F1683549B1" entity-name="IDL_Entities" identifier="Invoices"/>
+        <defaultValue xsi:nil="true"/>
+        <dataType>date</dataType>
+      </IDL_Fields>
+      <IDL_Fields id="2AA75DA3EAAF453FA1B54228E47C455A" identifier="IsSalesOrderTransaction">
+        <id>2AA75DA3EAAF453FA1B54228E47C455A</id>
+        <active>true</active>
+        <creationDate transient="true">2011-02-16T18:49:01.755Z</creationDate>
+        <createdBy transient="true" id="100" entity-name="ADUser" identifier="Openbravo"/>
+        <updated transient="true">2011-02-25T17:52:12.42Z</updated>
+        <updatedBy transient="true" id="100" entity-name="ADUser" identifier="Openbravo"/>
+        <name>IsSalesOrderTransaction</name>
+        <description xsi:nil="true"/>
+        <entityRef id="014408B7BB2F4420B7AC99F1683549B1" entity-name="IDL_Entities" identifier="Invoices"/>
+        <defaultValue xsi:nil="true"/>
+        <dataType>boolean</dataType>
+      </IDL_Fields>
+      <IDL_Fields id="610E7305628B493CB82C6FADCE4BC762" identifier="NetListPrice">
+        <id>610E7305628B493CB82C6FADCE4BC762</id>
+        <active>true</active>
+        <creationDate transient="true">2011-02-16T18:58:40.759Z</creationDate>
+        <createdBy transient="true" id="100" entity-name="ADUser" identifier="Openbravo"/>
+        <updated transient="true">2011-02-25T17:52:18.325Z</updated>
+        <updatedBy transient="true" id="100" entity-name="ADUser" identifier="Openbravo"/>
+        <name>NetListPrice</name>
+        <description xsi:nil="true"/>
+        <entityRef id="014408B7BB2F4420B7AC99F1683549B1" entity-name="IDL_Entities" identifier="Invoices"/>
+        <defaultValue xsi:nil="true"/>
+        <dataType>numeric</dataType>
+      </IDL_Fields>
+      <IDL_Fields id="3F821AD0C1C74A86AB64D8930738507F" identifier="NetUnitPrice">
+        <id>3F821AD0C1C74A86AB64D8930738507F</id>
+        <active>true</active>
+        <creationDate transient="true">2011-02-16T18:58:27.350Z</creationDate>
+        <createdBy transient="true" id="100" entity-name="ADUser" identifier="Openbravo"/>
+        <updated transient="true">2011-02-25T17:52:22.336Z</updated>
+        <updatedBy transient="true" id="100" entity-name="ADUser" identifier="Openbravo"/>
+        <name>NetUnitPrice</name>
+        <description xsi:nil="true"/>
+        <entityRef id="014408B7BB2F4420B7AC99F1683549B1" entity-name="IDL_Entities" identifier="Invoices"/>
+        <defaultValue xsi:nil="true"/>
+        <dataType>numeric</dataType>
+      </IDL_Fields>
+      <IDL_Fields id="DC099A6A80C34707BD74A25B09AC2AC9" identifier="OrderReference">
+        <id>DC099A6A80C34707BD74A25B09AC2AC9</id>
+        <active>true</active>
+        <creationDate transient="true">2011-02-16T18:49:47.234Z</creationDate>
+        <createdBy transient="true" id="100" entity-name="ADUser" identifier="Openbravo"/>
+        <updated transient="true">2011-02-25T17:52:30.237Z</updated>
+        <updatedBy transient="true" id="100" entity-name="ADUser" identifier="Openbravo"/>
+        <name>OrderReference</name>
+        <description xsi:nil="true"/>
+        <entityRef id="014408B7BB2F4420B7AC99F1683549B1" entity-name="IDL_Entities" identifier="Invoices"/>
+        <defaultValue xsi:nil="true"/>
+        <dataType>string</dataType>
+      </IDL_Fields>
+      <IDL_Fields id="DCD0BF4F08E64DC99D1A91C6C39EF7C0" identifier="PaymentsTerms">
+        <id>DCD0BF4F08E64DC99D1A91C6C39EF7C0</id>
+        <active>true</active>
+        <creationDate transient="true">2011-02-16T18:56:11.92Z</creationDate>
+        <createdBy transient="true" id="100" entity-name="ADUser" identifier="Openbravo"/>
+        <updated transient="true">2011-02-25T17:52:43.461Z</updated>
+        <updatedBy transient="true" id="100" entity-name="ADUser" identifier="Openbravo"/>
+        <name>PaymentsTerms</name>
+        <description xsi:nil="true"/>
+        <entityRef id="014408B7BB2F4420B7AC99F1683549B1" entity-name="IDL_Entities" identifier="Invoices"/>
+        <defaultValue xsi:nil="true"/>
+        <dataType>string</dataType>
+      </IDL_Fields>
+      <IDL_Fields id="B122FD597F7745C1866598BBB31630A7" identifier="PriceList">
+        <id>B122FD597F7745C1866598BBB31630A7</id>
+        <active>true</active>
+        <creationDate transient="true">2011-02-16T18:52:12.935Z</creationDate>
+        <createdBy transient="true" id="100" entity-name="ADUser" identifier="Openbravo"/>
+        <updated transient="true">2011-02-25T17:53:08.820Z</updated>
+        <updatedBy transient="true" id="100" entity-name="ADUser" identifier="Openbravo"/>
+        <name>PriceList</name>
+        <description xsi:nil="true"/>
+        <entityRef id="014408B7BB2F4420B7AC99F1683549B1" entity-name="IDL_Entities" identifier="Invoices"/>
+        <defaultValue xsi:nil="true"/>
+        <dataType>string</dataType>
+      </IDL_Fields>
+      <IDL_Fields id="93A037F65BEC44EBAD73872B34C069ED" identifier="PrintDiscount">
+        <id>93A037F65BEC44EBAD73872B34C069ED</id>
+        <active>true</active>
+        <creationDate transient="true">2011-02-16T18:52:58.321Z</creationDate>
+        <createdBy transient="true" id="100" entity-name="ADUser" identifier="Openbravo"/>
+        <updated transient="true">2011-02-25T17:53:18.144Z</updated>
+        <updatedBy transient="true" id="100" entity-name="ADUser" identifier="Openbravo"/>
+        <name>PrintDiscount</name>
+        <description xsi:nil="true"/>
+        <entityRef id="014408B7BB2F4420B7AC99F1683549B1" entity-name="IDL_Entities" identifier="Invoices"/>
+        <defaultValue xsi:nil="true"/>
+        <dataType>boolean</dataType>
+      </IDL_Fields>
+      <IDL_Fields id="1E96C57E2232472290B40366BD2BB260" identifier="Process">
+        <id>1E96C57E2232472290B40366BD2BB260</id>
+        <active>true</active>
+        <creationDate transient="true">2011-02-16T19:02:20.282Z</creationDate>
+        <createdBy transient="true" id="100" entity-name="ADUser" identifier="Openbravo"/>
+        <updated transient="true">2011-02-25T17:53:25.457Z</updated>
+        <updatedBy transient="true" id="100" entity-name="ADUser" identifier="Openbravo"/>
+        <name>Process</name>
+        <description xsi:nil="true"/>
+        <entityRef id="014408B7BB2F4420B7AC99F1683549B1" entity-name="IDL_Entities" identifier="Invoices"/>
+        <defaultValue xsi:nil="true"/>
+        <dataType>boolean</dataType>
+      </IDL_Fields>
+      <IDL_Fields id="373DB9AA386F4456B4ED1A7B90D0324A" identifier="Product">
+        <id>373DB9AA386F4456B4ED1A7B90D0324A</id>
+        <active>true</active>
+        <creationDate transient="true">2011-02-16T18:57:10.278Z</creationDate>
+        <createdBy transient="true" id="100" entity-name="ADUser" identifier="Openbravo"/>
+        <updated transient="true">2011-02-25T17:53:42.575Z</updated>
+        <updatedBy transient="true" id="100" entity-name="ADUser" identifier="Openbravo"/>
+        <name>Product</name>
+        <description xsi:nil="true"/>
+        <entityRef id="014408B7BB2F4420B7AC99F1683549B1" entity-name="IDL_Entities" identifier="Invoices"/>
+        <defaultValue xsi:nil="true"/>
+        <dataType>string</dataType>
+      </IDL_Fields>
+      <IDL_Fields id="B234822C272741D8A4F9801DCAFF6CEA" identifier="Project">
+        <id>B234822C272741D8A4F9801DCAFF6CEA</id>
+        <active>true</active>
+        <creationDate transient="true">2011-02-16T18:56:23.122Z</creationDate>
+        <createdBy transient="true" id="100" entity-name="ADUser" identifier="Openbravo"/>
+        <updated transient="true">2011-02-25T17:54:44.113Z</updated>
+        <updatedBy transient="true" id="100" entity-name="ADUser" identifier="Openbravo"/>
+        <name>Project</name>
+        <description xsi:nil="true"/>
+        <entityRef id="014408B7BB2F4420B7AC99F1683549B1" entity-name="IDL_Entities" identifier="Invoices"/>
+        <defaultValue xsi:nil="true"/>
+        <dataType>string</dataType>
+      </IDL_Fields>
+      <IDL_Fields id="E9F3E51E221948CC98FAF33B9A1B00C2" identifier="Tax">
+        <id>E9F3E51E221948CC98FAF33B9A1B00C2</id>
+        <active>true</active>
+        <creationDate transient="true">2011-02-16T18:58:52.690Z</creationDate>
+        <createdBy transient="true" id="100" entity-name="ADUser" identifier="Openbravo"/>
+        <updated transient="true">2011-02-25T17:55:00.494Z</updated>
+        <updatedBy transient="true" id="100" entity-name="ADUser" identifier="Openbravo"/>
+        <name>Tax</name>
+        <description xsi:nil="true"/>
+        <entityRef id="014408B7BB2F4420B7AC99F1683549B1" entity-name="IDL_Entities" identifier="Invoices"/>
+        <defaultValue xsi:nil="true"/>
+        <dataType>string</dataType>
+      </IDL_Fields>
+      <IDL_Fields id="D0134D3A09D149C78B46A169D5669A6C" identifier="TaxDate">
+        <id>D0134D3A09D149C78B46A169D5669A6C</id>
+        <active>true</active>
+        <creationDate transient="true">2011-02-16T18:51:24.302Z</creationDate>
+        <createdBy transient="true" id="100" entity-name="ADUser" identifier="Openbravo"/>
+        <updated transient="true">2011-02-25T17:55:21.762Z</updated>
+        <updatedBy transient="true" id="100" entity-name="ADUser" identifier="Openbravo"/>
+        <name>TaxDate</name>
+        <description xsi:nil="true"/>
+        <entityRef id="014408B7BB2F4420B7AC99F1683549B1" entity-name="IDL_Entities" identifier="Invoices"/>
+        <defaultValue xsi:nil="true"/>
+        <dataType>date</dataType>
+      </IDL_Fields>
+      <IDL_Fields id="CBA582E725CD4E308B89C02F0C3F452E" identifier="TransactionDocument">
+        <id>CBA582E725CD4E308B89C02F0C3F452E</id>
+        <active>true</active>
+        <creationDate transient="true">2011-02-16T18:50:24.953Z</creationDate>
+        <createdBy transient="true" id="100" entity-name="ADUser" identifier="Openbravo"/>
+        <updated transient="true">2011-02-25T17:55:33.791Z</updated>
+        <updatedBy transient="true" id="100" entity-name="ADUser" identifier="Openbravo"/>
+        <name>TransactionDocument</name>
+        <description xsi:nil="true"/>
+        <entityRef id="014408B7BB2F4420B7AC99F1683549B1" entity-name="IDL_Entities" identifier="Invoices"/>
+        <defaultValue xsi:nil="true"/>
+        <dataType>string</dataType>
+      </IDL_Fields>
+      <IDL_Fields id="58135F2ED62A49C9AA787DFD0B309F09" identifier="UserContact">
+        <id>58135F2ED62A49C9AA787DFD0B309F09</id>
+        <active>true</active>
+        <creationDate transient="true">2011-02-16T18:52:02.624Z</creationDate>
+        <createdBy transient="true" id="100" entity-name="ADUser" identifier="Openbravo"/>
+        <updated transient="true">2011-02-28T17:35:40.661Z</updated>
+        <updatedBy transient="true" id="100" entity-name="ADUser" identifier="Openbravo"/>
+        <name>UserContact</name>
+        <description xsi:nil="true"/>
+        <entityRef id="014408B7BB2F4420B7AC99F1683549B1" entity-name="IDL_Entities" identifier="Invoices"/>
+        <defaultValue xsi:nil="true"/>
+        <dataType>string</dataType>
+      </IDL_Fields>
+    </iDLFieldsList>
+  </IDL_Entities>
+</ob:Openbravo>

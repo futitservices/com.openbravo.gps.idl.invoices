@@ -1,0 +1,52 @@
+/**
+*   This file was generated automatically by the 'createModuleBuild' task.
+*   Created at: 2025-10-17T19:28:08.300474028Z.
+*
+*   WARNING: Do not put your credentials directly in this file.
+*
+*/
+
+group          = "com.openbravo"
+version        = "1.0.5"
+description    = "Extends Initial Data Load to load invoices."
+ext.artifact   = "gps.idl.invoices"
+ext.repository = "https://maven.pkg.github.com/futitservices/com.openbravo.gps.idl.invoices"
+
+configurations {
+    moduleDependencyContainer
+}
+
+publishing {
+    publications {
+        "com.openbravo.gps.idl.invoices"(MavenPublication) {
+            from components.java
+            groupId    = group
+            artifactId = artifact
+            version    = version
+        }
+    }
+    repositories {
+        maven {
+            url = "https://maven.pkg.github.com/futitservices/com.openbravo.gps.idl.invoices"
+        }
+    }
+}
+
+repositories {
+    mavenCentral()
+    maven {
+        url = "https://maven.pkg.github.com/futitservices/com.openbravo.gps.idl.invoices"
+    }
+    
+}
+
+/**
+* Declare Java dependencies using 'implementation'
+* Ex: implementation "com.sun.mail:javax.mail:1.6.2"
+*/
+dependencies {
+   implementation('com.etendoerp.platform:etendo-core:[22.1.0, 25.3.0)')
+   implementation('org.openbravo:idl:3.0.207000')
+   implementation('org.openbravo:module.idljava:1.4.0')
+
+}
