@@ -45,7 +45,6 @@ repositories {
 * Ex: implementation "com.sun.mail:javax.mail:1.6.2"
 */
 dependencies {
-   implementation('com.etendoerp.platform:etendo-core:[22.1.0, 25.3.0)')
    implementation('org.openbravo:idl:3.0.207000')
    implementation('org.openbravo:module.idljava:1.4.0')
 
