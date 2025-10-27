@@ -7,7 +7,7 @@
 */
 
 group          = "com.openbravo"
-version        = "1.0.5"
+version        = "1.0.8"
 description    = "Extends Initial Data Load to load invoices."
 ext.artifact   = "gps.idl.invoices"
 ext.repository = "https://maven.pkg.github.com/futitservices/com.openbravo.gps.idl.invoices"

@@ -6,7 +6,7 @@
 <!--F6E44B458B1B40B38DEF492EB8E9C1D3-->  <AD_ORG_ID><![CDATA[0]]></AD_ORG_ID>
 <!--F6E44B458B1B40B38DEF492EB8E9C1D3-->  <ISACTIVE><![CDATA[Y]]></ISACTIVE>
 <!--F6E44B458B1B40B38DEF492EB8E9C1D3-->  <NAME><![CDATA[Initial Data Load Extension for Invoices]]></NAME>
-<!--F6E44B458B1B40B38DEF492EB8E9C1D3-->  <VERSION><![CDATA[1.0.5]]></VERSION>
+<!--F6E44B458B1B40B38DEF492EB8E9C1D3-->  <VERSION><![CDATA[1.0.8]]></VERSION>
 <!--F6E44B458B1B40B38DEF492EB8E9C1D3-->  <DESCRIPTION><![CDATA[Extends Initial Data Load to load invoices.]]></DESCRIPTION>
 <!--F6E44B458B1B40B38DEF492EB8E9C1D3-->  <HELP><![CDATA[This module is provided by Openbravo Global Partner Services, the service branch of Openbravo S.L.U. No support is planned for this module, neither in the Openbravo ERP forums nor through any other channel. You may use it as-is and at your own risk.]]></HELP>
 <!--F6E44B458B1B40B38DEF492EB8E9C1D3-->  <URL><![CDATA[forge.openbravo.com/projects/IDLExtensionInvoices]]></URL>
