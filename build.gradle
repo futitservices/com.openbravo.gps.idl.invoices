@@ -46,6 +46,6 @@ repositories {
 */
 dependencies {
    implementation('org.openbravo:idl:3.0.207000')
-   implementation('org.openbravo:module.idljava:1.4.0')
+   implementation('org.openbravo:module.idljava:1.4.1')
 
 }
